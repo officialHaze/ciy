@@ -1,0 +1,25 @@
+.search-bar {
+	display: flex;
+	justify-content: center;
+	position: relative;
+}
+
+input {
+	width: 17rem;
+	padding: 0.5rem;
+	border-radius: 0 2rem 2rem 0;
+	font-size: 1rem;
+	outline: none;
+	font-family: "Montserrat", sans-serif;
+}
+
+.fa-magnifying-glass {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	background: #1d1b38;
+	color: white;
+	border-radius: 2rem 0 0 2rem;
+	padding: 0 1rem;
+	cursor: pointer;
+}
